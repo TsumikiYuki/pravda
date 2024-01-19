@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Membros da Pravda</title>
+    <style>
+        /* Estilo para o corpo da página */
+        body {
+            background-color: black;
+            color: #7c2020;
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        /* Estilo para o título principal */
+        h1 {
+            font-size: 36px;
+            margin-bottom: 30px;
+            color: #b91c1c;
+            text-transform: uppercase;
+        }
+
+        /* Estilo para a lista de membros */
+        .member-list {
+            margin: 0 auto;
+            max-width: 600px;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        /* Estilo para cada membro */
+        .member {
+            margin: 10px;
+            padding: 20px;
+            background-color: #4c0000;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            min-width: 200px;
+            margin-bottom: 10px; /* Margem inferior de 10px para todos os membros */
+        }
+
+        /* Estilo para a imagem de cada membro */
+        .member img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            box-shadow: 0 0 0 4px white;
+        }
+
+        /* Estilo para o nome de cada membro */
+        .member h2 {
+            font-size: 24px;
+            margin-bottom: 5px;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            color: white;
+        }
+
+        /* Estilo para o cargo de cada membro */
+        .member p {
+            font-size: 16px;
+            margin: 0;
+            color: #f2d9d9;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Membros Pravda</h1>
+    <ul class="member-list">
+        <li class="member">
+            <img src="https://media.discordapp.net/attachments/923560598401318942/1138948856223113297/paras_com_isso_de_loli_mano.png" alt="Tsumiki">
+            <h2>Tsumiki</h2>
+            <p>Líder e fundadora</p>
+        </li>
+        <!-- Adicione mais membros abaixo -->
+        <li class="member">
+            <img src="https://media.discordapp.net/attachments/923560598401318942/1185599133327818762/bd51e88b011b2e3ed763d4be8e3cdfb4.png?ex=6590323c&is=657dbd3c&hm=e8b7c277b3b6c07e5861e49f021ad6c19818533141d5b2e647275ec1c50c7588&=&format=webp&quality=lossless" alt="Yamoshi">
+            <h2>Yamoshi</h2>
+            <p>Tester</p>
+        </li>
+        <li class="member">
+            <img src="https://media.discordapp.net/attachments/923560598401318942/1185599089237303306/fe60a6d9849fb4b777e52a0f474f05f7.png?ex=65903232&is=657dbd32&hm=828cd91fb3f080cb8e368c975dc254e72da79c78040f7991eabc8fceef790bd2&=&format=webp&quality=lossless" alt="Katsu">
+            <h2>Katsu</h2>
+            <p>Tester</p>
+        </li>
+        <li class="member">
+            <img src="https://images-ext-1.discordapp.net/external/8PkPN6jm3crj5u0Y4StVXscvA4LLlIdTBjfe0O9Y2ik/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/355388930624978945/058bead1457d853eb0714e8d616c4ef1.png?format=webp&quality=lossless" alt="Pity">
+            <h2>Pity</h2>
+            <p>General</p>
+        </li>
+        <li class="member">
+            <img src="https://images-ext-1.discordapp.net/external/QvBFq80KE4anDJy6LA05Bm4njwgIL0VED7qLpzHP0oQ/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/463777434123108363/4aceedea65ec911fc29970eb0916b9cd.png" alt="Kissmint">
+            <h2>Kissmint</h2>
+            <p>Tester</p>
+        </li>
+        <li class="member">
+            <img src="https://images-ext-1.discordapp.net/external/EjGx6xkTNs-mKFXFbA1DOMQ3E2MviYxcrTG6_mIM2xA/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/591309158637109250/a_051e8f7e5014259888107ea350272bed.gif" alt="Ruankkj">
+            <h2>Ruankkj</h2>
+            <p>Tester</p>
+        </li>
+        <li class="member">
+            <img src="https://media.discordapp.net/attachments/923560598401318942/1138950503347269662/ffe2816f163576ef793f75aac73ca816.png" alt="Yumui<3">
+            <h2>Yumui<3</h2>
+            <p>Tester</p>
+        </li>
+        <!-- Outros membros podem ser adicionados conforme necessário -->
+    </ul>
+</body>
+</html>
