@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Eventos - Pravda</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #fff;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .container {
+            margin: 20px auto;
+            max-width: 800px;
+            padding: 20px;
+            background-color: #222;
+            box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+        }
+
+        .evento {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #666;
+        }
+
+        .evento h2 {
+            color: #fff;
+            margin-top: 0;
+        }
+
+        .evento p {
+            color: #ccc;
+            margin-top: 5px;
+        }
+
+        .evento img {
+            float: left;
+            margin-right: 20px;
+            max-width: 150px;
+            max-height: 150px;
+        }
+
+        .evento img.celest {
+            float: left;
+            margin-right: 20px;
+            max-width: 150px;
+            max-height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Eventos</h1>
+    <div class="container">
+        <div class="evento">
+            <img src="https://media.discordapp.net/attachments/918486653864124436/1052281951010164786/image.png" alt="Evento 1">
+            <h2>World Fng Cup</h2>
+            <p>Data: 13/12/2022</p>
+            <p>Local: Fng 4</p>
+            <p>Evento finalizado</p>
+        </div>
+        <div class="evento">
+            <img src="https://media.discordapp.net/attachments/918486653864124436/1070776912588308480/image.png" alt="Evento 2">
+            <h2>Fng Multiverse</h2>
+            <p>Data: 02/02/2023</p>
+            <p>Local: A combinar</p>
+            <p>Evento finalizado</p>
+        </div>
+        <div class="evento">
+            <img src="https://media.discordapp.net/attachments/918486653864124436/1173660522604929135/Multiverse_fng_1.png?ex=6564c38a&is=65524e8a&hm=6c611c63585b1a79a318c291a6f1a5f97f4a73d19990cccc373ae54fde2da0a2&=" alt="Multiverse Fng 2">
+            <h2>Multiverse Fng 2</h2>
+            <p>Data: 22/11/23</p>
+            <p>Local: A combinar</p>
+            <p>Evento finalizado</p>
+        </div>
+        <div class="evento">
+            <img src="https://media.discordapp.net/attachments/918486653864124436/1122579526367584316/image.png" alt="Evento 3">
+            <h2>FFA FNG</h2>
+            <p>Data: 01/07/2023</p>
+            <p>Local: A combinar</p>
+            <p>Evento: Evento finalizado</p>
+        </div>
+        <div class="evento">
+            <img src="https://media.discordapp.net/attachments/918486653864124436/1180646269677478039/X.png?ex=65876806&is=6574f306&hm=8019a1ccc2cf801f2d75f5c5b7c854cd9a1eaaf11674d6268b41a9c0af62c5cb&=&format=webp&quality=lossless" alt="Evento 3x3">
+            <h2>Torneio 3x3</h2>
+            <p>Data: 11/12/23</p>
+            <p>Local: Fng 4</p>
+            <p>Evento Finalizado</p>
+        </div>
+        <div class="evento">
+            <img src="https://media.discordapp.net/attachments/918486653864124436/1189753676999446568/image.png?ex=65bafef5&is=65a889f5&hm=68ef0e2ff7926c0b782ad3d693c85158e1dae21b7a4a4911a39e95b9e588370f&=&format=webp&quality=lossless" alt="2x2 Celestial" class="celest">
+            <h2>2x2 Celestial</h2>
+            <p>Data: 13/01/24</p>
+            <p>Local: Fng 1</p>
+            <p>Evento finalizado</p>
+        </div>
+        <!-- Adicione novos eventos aqui -->
+    </div>
+</body>
+</html>
